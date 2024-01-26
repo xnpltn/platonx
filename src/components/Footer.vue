@@ -10,8 +10,8 @@ const year = new Date().getFullYear()
 <template>
     <footer>
         <div class="footer">
-            <span >Platon N</span>
-            <span> Copyright {{ year }}</span>
+            <span class="hiden_small">Platon N</span>
+            <span class="hiden_small"> &copy; {{ year }}</span>
             <div class="socials">
                 <a href="https://github.com/xnpltn" target="_blank" rel="noopener noreferrer"><Github/></a>
                 <a href="linkedin.com/in/xnpltn" target="_blank" rel="noopener noreferrer"><Linkedin/></a>

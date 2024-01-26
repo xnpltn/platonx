@@ -9,7 +9,7 @@ defineProps({
 
 <template>
     <article class="blog_card">
-            <a href="/blog/" style="display: block;">{{ blog.title }}</a>
+            <a href="/blog/" style="display: block;"><h3>{{ blog.title }}</h3></a>
             <span>{{ blog.date }}</span>
     </article>
 </template>
