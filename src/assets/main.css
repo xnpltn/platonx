@@ -1,1 +1,107 @@
 @import './modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+  background-color: #111827;
+  color: #94a3b8;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: #f1f5f9;
+}
+a:visited{
+  color: #f1f5f9;
+}
+
+
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.center, .footer{
+  display: grid;
+  place-items: center;
+  
+}
+
+.title{
+  font-size: x-large;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+.articles{
+  margin-bottom: 1rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials{
+  display: flex;
+  gap: 3rem;
+}
+
+.social__icon{
+  height: 24px;
+  width: 24px;
+}
+
+
+/* xs */
+@media (min-width: 475px){
+  body{
+    background-color: #ffff;
+    color: #94a3b8;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px){
+    
+} */
+
+/* md */
+/* @media (min-width: 768px){
+    
+} */
+
+/* lg */
+/* @media (min-width: 1024px){
+    
+} */
+
+/* xl */
+/* @media (min-width: 1260px){
+    
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    .
+} */
