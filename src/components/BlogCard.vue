@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router';
 defineProps({
     blog: {
         type: Object,
@@ -9,8 +10,8 @@ defineProps({
 
 <template>
     <article class="blog_card">
-            <a href="/blog/" style="display: block;"><h3>{{ blog.title }}</h3></a>
-            <span>{{ blog.date }}</span>
+            <RouterLink :to="'blog/'+ blog.slug" style="display: block;" class="link"><h3>{{ blog.title }}</h3></RouterLink>
+            <span>{{ blog.datePublished }}</span>
     </article>
 </template>
 
@@ -24,5 +25,10 @@ defineProps({
     margin-bottom: 1.5rem;
     padding-left: 5rem;
     padding-right: 5rem;
+}
+
+.link{
+    font-size: medium;
+    color: #94a3b8;
 }
 </style>

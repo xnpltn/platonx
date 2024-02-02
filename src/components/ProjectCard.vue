@@ -17,11 +17,11 @@ defineProps({
 
 <template>
     <div class="project_card">
-        <h3 class="pjorect_card-heading">{{ project.name }}</h3>
+        <a :href="project.link" target="_blank" rel="noopener noreferrer"><h3 class="pjorect_card-heading">{{ project.name }}</h3></a>
         <span style="max-width: 10ch;">{{ project.description }}</span>
         <p>
             <div class=" stack_Card">
-                <span class="stack">html</span>
+                <span class="stack" v-for="stack in project.stack" :key="project.id">{{stack}}</span>
             </div>
         </p>
     </div>
@@ -36,13 +36,14 @@ defineProps({
 }
 
 .stack{
-    border: 1px solid red;
+    border: 1px solid #94a3b8;
     padding: 0.5rem;
     font-size: small;
-    border-radius: 30%;
+    border-radius: 3%;
 }
 .pjorect_card-heading{
     color: #f1f5f9;
     text-transform: capitalize;
+    text-decoration: underline;
 }
 </style>
