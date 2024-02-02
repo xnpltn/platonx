@@ -7,7 +7,7 @@ and building `Terminal Applications`.
 I like coding with `Go(golang)`, `Python`, `JavaScript` and `C`
 
 This portifolio is made with `Vuejs` with `Typescript` and `Marked`
-to parse mark donw for blog section.
+to parse markdown(.md) for blog section.
 
 Just fork it, clone it and run those commands.
 
