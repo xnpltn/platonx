@@ -22,13 +22,4 @@ export default [
         description: "A platfrom to find where to party after party, backend Only",
         stack: ["FastAPI", "Postgres"]
     },
-
-    {
-        id: 4,
-        name: "Wanext",
-        link: "https://github.com/xnpltn/wanext",
-        description: "A platfrom to find where to party after party, backend Only",
-        stack: ["FastAPI", "Postgres"]
-    }
-
 ]
