@@ -83,12 +83,20 @@ a:hover{
   }
 }
 
+/* sm */
+@media (min-width: 640px){
+  body{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
 
 /* md */
 @media (min-width: 768px){
   body{
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 25%;
+    padding-right: 25%;
   }
 
   .projects{
@@ -104,8 +112,13 @@ a:hover{
 /* lg */
 @media (min-width: 1024px){
   body{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
   }
 }
 
@@ -113,8 +126,8 @@ a:hover{
 /* xl */
 @media (min-width: 1260px){
   body{
-    padding-left: 33%;
-    padding-right: 33%;
+    padding-left: 35%;
+    padding-right: 35%;
   }
 
   .projects{

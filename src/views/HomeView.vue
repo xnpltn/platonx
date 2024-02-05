@@ -15,9 +15,7 @@ import Projects from "@/composables/useProjects";
         <div style="text-align: center;">
           <p>
           Hi, I am <strong class="bright">Platon</strong>.<br/>
-          I like building things and I enjoy programming.
-        </p>
-        <p>
+          I like building things and I enjoy programming.<br/>
           I am Interested in <strong class="bright">Backend</strong>, <strong class="bright">Machine Learning</strong> and building <strong class="bright">Terminal Applications.</strong>
         </p>
         <p>I like coding with <strong class="bright">Go(golang)</strong>, <strong class="bright">Python</strong>, <strong class="bright">JavaScript</strong> and <strong class="bright">C</strong> </p>

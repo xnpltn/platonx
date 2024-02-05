@@ -1,0 +1,4 @@
+# all right robots, let's do it!
+
+User-agent: *
+Allow: /

@@ -22,7 +22,6 @@ onBeforeMount(()=>{
     const foundBlog = Blogs.find(blog => blog.slug == slug)
     if(foundBlog){
         blog.value = foundBlog
-        
     }
     
 })

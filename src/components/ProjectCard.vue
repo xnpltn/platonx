@@ -21,7 +21,7 @@ defineProps({
         <span style="max-width: 10ch;">{{ project.description }}</span>
         <p>
             <div class=" stack_Card">
-                <span class="stack" v-for="stack in project.stack" :key="project.id">{{stack}}</span>
+                <span class="tag" v-for="tag in project.tag" :key="project.id">{{tag}}</span>
             </div>
         </p>
     </div>
@@ -35,15 +35,16 @@ defineProps({
     gap: 1rem;
 }
 
-.stack{
+.tag{
     border: 1px solid #94a3b8;
-    padding: 0.5rem;
-    font-size: small;
+    padding: 0.1rem;
+    font-size: x-small;
     border-radius: 3%;
 }
 .pjorect_card-heading{
-    color: #f1f5f9;
+    color: #94a3b8;
     text-transform: capitalize;
-    text-decoration: underline;
+    text-decoration: underline;    
+    filter: brightness(1.2);
 }
 </style>

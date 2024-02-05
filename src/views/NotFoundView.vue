@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.vue"
     <main>
         <div class="centered_container">
             <div class="centered">
-                <h1>Not Found LOL😂</h1>
+                <h1>Not Found</h1>
                 <NotFound/>
             </div>
         </div>
