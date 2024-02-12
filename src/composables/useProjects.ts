@@ -3,30 +3,30 @@
 export default [
     {
         id: 1,
-        name: 'CodeGram',
+        name: 'Instagram-Backend',
         link: 'https://github.com/xnpltn/codegram', 
-        description: 'A platform like Instagram but for programmers. Backend only. Written in go.',
+        description: 'A clone of Instagram backend written in Go',
         tag: ["Gorilla Mux", "Postgres"] 
     },
     {
         id: 2,
         name: "PlatonX",
         link: "https://github.com/xnpltn/platonx",
-        description: "My Ugly portifolio write in vuejs and markdwon for blogs",
+        description: "My Ugly, Minimal portifolio writen in vuejs",
         tag: ["Markdown", "TypeScript"]
     },
     {
         id: 3,
         name: "Cost Explorer API",
         link: "https://github.com/xnpltn/cost-explorer-api",
-        description: "An api and scraper time that provides data about places you want to visit",
+        description: "Api and scraper :Know about places",
         tag: ["Python", "FastAPI"]
     },
     {
         id: 4,
         name: "Wanext",
         link: "https://github.com/xnpltn/wanext",
-        description: "A platfrom to find where to party after party, backend Only",
+        description: "A platfrom to find where to party after party",
         tag: ["FastAPI", "Postgres"]
     },
 ]

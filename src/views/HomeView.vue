@@ -14,9 +14,9 @@ import Projects from "@/composables/useProjects";
     <section class="center">
         <div style="text-align: center;">
           <p>
-          Hi, I am <strong class="bright">Platon</strong>.<br/>
+          Hi, I am <strong >Platon</strong> <span class="phil"> /not a Philosopher tho /.</span><br/>
           I like building things and I enjoy programming.<br/>
-          I am Interested in <strong class="bright">Backend</strong>, <strong class="bright">Machine Learning</strong> and building <strong class="bright">Terminal Applications.</strong>
+          I am Interested in <strong class="bright">Backend</strong>, <strong class="bright">Terminal</strong> and building <strong class="bright">Unnecessary tools</strong>
         </p>
         <p>I like coding with <strong class="bright">Go(golang)</strong>, <strong class="bright">Python</strong>, <strong class="bright">JavaScript</strong> and <strong class="bright">C</strong> </p>
       </div>
@@ -40,5 +40,12 @@ import Projects from "@/composables/useProjects";
   color: #94a3b8;
   text-decoration: underline;
   filter: brightness(1.2);
+}
+
+.phil{
+  font-size: smaller;
+  color: #334155;
+  font-style: italic;
+  margin-left: 0.5px;
 }
 </style>
