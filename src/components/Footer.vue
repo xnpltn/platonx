@@ -11,9 +11,8 @@ const year = new Date().getFullYear()
     
     <footer>
         <div class="footer">
-            
             <span class="hiden_small">Platon N</span>
-            <span class="hiden_small"> &copy; {{ year }}</span>
+            <span class="hiden_small"> &copy; {{ new Date().getFullYear() }}</span>
             <div class="socials">
                 <a href="https://github.com/xnpltn" target="_blank" rel="noopener noreferrer"><Github/></a>
                 <a href="https://linkedin.com/in/xnpltn" target="_blank" rel="noopener noreferrer"><Linkedin/></a>
@@ -31,7 +30,6 @@ const year = new Date().getFullYear()
   grid-template-columns: 1fr 1fr 2fr;
   place-content: center;
   justify-items: center;
-  /* position: fixed; */
   bottom: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;

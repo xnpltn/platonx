@@ -1,11 +1,12 @@
 export const Article1 = `
-# <font color="#f1f5f9">How I Got Into Programming: My Story</font>
+## <font color="#f1f5f9">How I Got Into Programming: My Story</font>
 
 
 Several years ago, precisely five, my journey into programming 
 commenced fueled by a fascination with video games. Temple Run,
- a mobile game I used to enjoy, sparked my curiosity about its development process. 
-Discovering that creating something akin to it required coding skills, I delved into the world of programming
+a mobile game I used to enjoy, sparked my curiosity about its development process. 
+Discovering that creating something akin to it required coding skills, 
+I delved into the world of programming
 
 
 When seeking guidance from friends pursuing computer science at my school, 
@@ -26,7 +27,7 @@ the first link took me to a book called "Eloquent JavaScript" by Marijn Haverbek
 
 
 <p align="center">
-    <img src="/eloquent.jpg" alt="Image 2" style="width:300px;height:200px;">
+    <img src="/blog/eloquent.jpg" alt="Image 2" style="width:300px;height:200px;">
 </p>
 
 I began reading the book, and I found it really enjoyable. The content was so engaging 
@@ -46,7 +47,7 @@ JavaScript learning journey, I came across a book titled 'Automate the Boring St
 Python' by Al Sweigart.
 
 <p align="center">
-    <img src="/boring.jpg" alt="Image 1" style="width:300px;height:200px;">
+    <img src="/blog/boring.jpg" alt="Image 1" style="width:300px;height:200px;">
 </p>
 
 Continuing with the book, my fondness for Python grew even more. When I reached 
@@ -74,7 +75,8 @@ So far, I can write code in:
 
 I am familiar with different frameworks and Library likes
 
-        - Majority of backend farmeworks in Go (Gorrila mux, Chi, Gin, …)
+        - Gorrila mux, Chi, Gin, …
+        - Cobra CLI
         - gRPC
         - FastAPI
         - Django Rest Framwork

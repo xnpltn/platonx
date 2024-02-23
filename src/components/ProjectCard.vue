@@ -1,6 +1,4 @@
 <script setup lang="ts">
-
-
 type Project = {
     name: string
     description: string
@@ -43,6 +41,7 @@ defineProps({
 }
 .pjorect_card-heading{
     color: #94a3b8;
+    font-size: medium;
     text-transform: capitalize;
     text-decoration: underline;    
     filter: brightness(1.2);

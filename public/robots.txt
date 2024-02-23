@@ -1,4 +1,4 @@
-# all right robots, let's do it!
+# aight robots, let's do it!
 
 User-agent: *
 Allow: /
