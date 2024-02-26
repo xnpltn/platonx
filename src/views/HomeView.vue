@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import ProjectCard from "@/components/ProjectCard.vue";
-import BlogCard from "@/components/BlogCard.vue";
-import Footer from "@/components/Footer.vue";
-import Blogs from "@/composables/useBlogs";
-import Projects from "@/composables/useProjects";
+import Github from '@/components/icons/Github.vue';
 </script>
 
 <template>
@@ -22,22 +18,15 @@ import Projects from "@/composables/useProjects";
           <strong class="bright">Python</strong>,
           <strong class="bright">JavaScript</strong> and
           <strong class="bright">C</strong><br />
-          Currently learning <strong class="bright">Rust</strong>
+          Currently learning <strong class="bright">Rust</strong><br/>
         </p>
+        <p>
+          <strong class="bright github"><a href="https://github.com/xnpltn" target="_blank">Github</a></strong>
+        </p>
+        
       </div>
     </section>
-
-    <h2 class="title" align="center">Projects</h2>
-    <section class="center projects">
-      <ProjectCard v-for="project in Projects" :project="project" />
-    </section>
-
-    <h2 class="title" align="center">Blog</h2>
-    <section class="articles">
-      <BlogCard v-for="blog in Blogs" :blog="blog" :key="blog.id" />
-    </section>
   </main>
-  <Footer />
 </template>
 
 <style scoped>
@@ -52,5 +41,9 @@ import Projects from "@/composables/useProjects";
   color: #334155;
   font-style: italic;
   margin-left: 0.5px;
+}
+
+.github:hover{
+  color: azure;
 }
 </style>

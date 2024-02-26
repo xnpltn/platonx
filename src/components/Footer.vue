@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import X from "../components/icons/X.vue"
-import Linkedin from "../components/icons/Linkedin.vue"
-import Github from "../components/icons/Github.vue"
-
 const year = new Date().getFullYear()
-
 </script>
 
 <template>
@@ -14,9 +9,9 @@ const year = new Date().getFullYear()
             <span class="hiden_small">Platon N</span>
             <span class="hiden_small"> &copy; {{ new Date().getFullYear() }}</span>
             <div class="socials">
-                <a href="https://github.com/xnpltn" target="_blank" rel="noopener noreferrer"><Github/></a>
-                <a href="https://linkedin.com/in/xnpltn" target="_blank" rel="noopener noreferrer"><Linkedin/></a>
-                <a href="https://twitter.com/xnpltn" target="_blank" rel="noopener noreferrer"><X/></a>
+              <strong class="bright"><a href="https://github.com/xnpltn" target="_blank">Github</a></strong>
+              <strong class="bright"><a href="https://github.com/xnpltn" target="_blank">LinkedIn</a></strong>
+              <strong class="bright"><a href="https://github.com/xnpltn" target="_blank">X</a></strong>
             </div>
         </div>
     </footer>

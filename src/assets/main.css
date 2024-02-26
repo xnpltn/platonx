@@ -1,11 +1,11 @@
 @import './modern-normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
 body{
   background-color: #111827;
   color: #94a3b8;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -97,11 +97,6 @@ a:hover{
     padding-right: 20%;
   }
 
-  .projects{
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-    gap: 1.5rem;
-  }
   .hiden_small{
     display: inline-block;
   }
@@ -112,11 +107,6 @@ a:hover{
   body{
     padding-left: 25%;
     padding-right: 25%;
-  }
-  .projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
   }
 }
 
@@ -129,10 +119,3 @@ a:hover{
   }
 }
 
-/* 8xl */
-@media (min-width: 2560px){
-  body{
-    padding-left: 40%;
-    padding-right: 40%;
-  }
-}
