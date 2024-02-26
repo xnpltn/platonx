@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Blogs from "@/composables/useBlogs"
-import Footer from "@/components/Footer.vue"
 import { RouterLink } from 'vue-router'
 
 </script>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRoute, useRouter } from "vue-router";
+import { useRoute } from "vue-router";
 import Blogs from "@/composables/useBlogs";
 import NotFoundView from "../NotFoundView.vue";
 import { onBeforeMount, ref } from "vue";
