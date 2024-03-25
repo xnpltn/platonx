@@ -8,6 +8,11 @@ body{
   font-family: "Ubuntu", sans-serif;
   padding-left: 5%;
   padding-right: 5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 a{
@@ -42,25 +47,7 @@ a:hover{
   font-size: x-large;
 }
 
-.projects{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.5rem;
-}
 
-.articles{
-  margin-bottom: 1rem;
-}
-
-.socials{
-  display: flex;
-  gap: 3rem;
-}
-
-.social__icon{
-  height: 24px;
-  width: 24px;
-}
 
 .hiden_small{
   display: none;
