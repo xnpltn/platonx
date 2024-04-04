@@ -1,8 +1,6 @@
 @import './modern-normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-
-body{
+body {
   background-color: #111827;
   color: #94a3b8;
   font-family: "Ubuntu", sans-serif;
@@ -12,95 +10,44 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  
-}
-
-a{
-  text-decoration: none;
-  color: #94a3b8;
-}
-a:visited{
-  color: #f1f5f9;
-}
-
-
-
-a:hover{
-  text-decoration: underline;
-}
-
-
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.center, .footer{
-  display: grid;
-  place-items: center;
-  
-}
-
-.title{
-  font-size: x-large;
-}
-
-
-
-.hiden_small{
-  display: none;
 }
 
 
 /* xs */
-@media (min-width: 475px){
-  body{
+@media (min-width: 475px) {
+  body {
     padding-left: 10%;
     padding-right: 10%;
-  }
-
-  .projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
   }
 }
 
 /* sm */
-@media (min-width: 640px){
-  body{
+@media (min-width: 640px) {
+  body {
     padding-left: 15%;
     padding-right: 15%;
   }
 }
 
-
 /* md */
-@media (min-width: 768px){
-  body{
+@media (min-width: 768px) {
+  body {
     padding-left: 20%;
     padding-right: 20%;
-  }
-
-  .hiden_small{
-    display: inline-block;
   }
 }
 
 /* lg */
-@media (min-width: 1024px){
-  body{
+@media (min-width: 1024px) {
+  body {
     padding-left: 25%;
     padding-right: 25%;
   }
 }
 
-
 /* xl */
-@media (min-width: 1260px){
-  body{
+@media (min-width: 1260px) {
+  body {
     padding-left: 35%;
     padding-right: 35%;
   }

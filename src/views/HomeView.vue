@@ -15,7 +15,7 @@
         <p>
           I like coding with <strong class="bright">Go(golang)</strong>,
           <strong class="bright">Python</strong>,
-          <strong class="bright">JavaScript</strong> and
+          <strong class="bright">JS</strong> and
           <strong class="bright">C</strong><br />
           Currently learning <strong class="bright">Rust</strong><br/>
         </p>
@@ -40,6 +40,12 @@
   color: #334155;
   font-style: italic;
   margin-left: 0.5px;
+}
+
+.github a{
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 .github:hover{

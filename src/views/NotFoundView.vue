@@ -1,11 +1,8 @@
-<script setup lang="ts">
-</script>
 <template>
     <main>
         <div class="centered_container">
             <div class="centered">
                 <h1>Not Found</h1>
-                <NotFound/>
             </div>
         </div>
     </main>
